@@ -14,11 +14,11 @@ const config = {
 const getPos = () => {
     return new Promise((res, fail) => {
         try {
-            let times = 1;
+            let times = 0;
             const obj = setInterval(() => {
                 times++;
                 let num = config.delay - times;
-                if (times == config.delay) {
+                if (num == 1) {
                     clearInterval(obj)
                 }
                 process.stdout.write(`${num}...`);
