@@ -1,7 +1,7 @@
 {
-  "name": "pc-click-bot",
+  "name": "autoclick",
   "version": "1.0.0",
-  "description": "",
+  "description": "auto mouse click for PC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
