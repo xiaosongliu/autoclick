@@ -14,7 +14,7 @@ const config = {
 const getPos = () => {
     return new Promise((res, fail) => {
         try {
-            let times = 0
+            let times = 1;
             const obj = setInterval(() => {
                 times++;
                 let num = config.delay - times;
